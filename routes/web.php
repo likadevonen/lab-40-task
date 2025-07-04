@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/lab-40', function () {
-    return view('lab-40');
+    return view('lab-40', ['name' => 'Iliya Devedzhiev']);
 });
