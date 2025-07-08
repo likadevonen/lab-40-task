@@ -1,11 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\View;
 
 Route::get('/', function () {
-    return view('welcome');
+    return View::make('welcome');
 });
 
-Route::get('/lab-40', function () {
-    return view('lab-40', ['name' => 'Iliya Devedzhiev']);
+Route::get('/support-and-maintenance', function () {
+    return View::make('support-and-maintenance', ['name' => 'Iliya Devedzhiev']);
 });
