@@ -48,12 +48,6 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-
-## To load images, please run commands bellow
-`cp -R resources/images storage/app/public`
-`php artisan storage:link`
-
-
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
@@ -65,3 +59,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Labforty instructions
+### To load images properly, please run commands bellow
+1. `cp -R resources/images storage/app/public`
+
+2. `php artisan storage:link`

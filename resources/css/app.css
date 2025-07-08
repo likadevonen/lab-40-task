@@ -169,10 +169,8 @@
                             @apply
                                 p-2
                                 rounded-lg
-                                bg-white
                                 text-gray-800
-                                hover:bg-focus-hover
-                                hover:text-white;
+                                hover:underline;
                         }
                     }
                 }

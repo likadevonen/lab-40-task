@@ -82,9 +82,6 @@
                     x-on:keydown.space.prevent="openedWithKeyboard = true"
                     x-on:keydown.enter.prevent="openedWithKeyboard = true"
                     x-on:keydown.down.prevent="openedWithKeyboard = true"
-                    x-bind:class="isOpen || openedWithKeyboard
-                        ? 'text-on-surface-strong dark:text-on-surface-dark-strong'
-                        : 'text-on-surface dark:text-on-surface-dark'"
                     x-bind:aria-expanded="isOpen || openedWithKeyboard"
                     aria-haspopup="true"
                 >
